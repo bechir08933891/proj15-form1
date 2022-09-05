@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regestration form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="regform">
+      <h1>Regstration form</h1>
+    </div>
+    <div class="main">
+      <form action="#">
+        <div id="name">
+          <h2 class="name">name</h2>
+          <input type="text" name="first_name" class="firstName" />
+          <label class="firstLabel">first name</label>
+
+          <input type="text" name="last_name" class="lastName" />
+          <label class="lastLabel">last name</label>
+        </div>
+
+        <h2 class="name">Company</h2>
+        <input type="text" name="company" class="company" />
+
+        <h2 class="name">Email</h2>
+        <input type="text" name="email" class="email" />
+
+        <h2 class="name">Phone</h2>
+        <input type="text" name="area_code" class="code" placeholder="+216" />
+        <label class="area_code">Area code</label>
+        <input type="text" name="phone" class="number" />
+        <label class="phone_number">phone number</label>
+
+        <h2 class="name">subject</h2>
+        <select name="subject" class="option">
+          <option disabled selected>--choose option</option>
+          <option value="#">subject 1</option>
+          <option value="#">subject 2</option>
+          <option value="#">subject 3</option>
+        </select>
+
+        <h2 id="student">Are you beginner ?</h2>
+        <label class="radio">
+          <input type="radio" name="" class="radion_one" />
+          <span class="checkMark"></span>
+          yes
+        </label>
+        <label class="radio">
+          <input type="radio" name="" class="radion_two" />
+          <span class="checkMark"></span>
+          No
+        </label>
+
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </body>
+</html>
